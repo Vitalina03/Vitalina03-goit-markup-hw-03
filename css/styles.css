@@ -105,7 +105,7 @@ img {
   color: var(--white);
   max-width: 496px;
   margin-bottom: 48px;
-  padding-top: 188px;
+
   font-weight: 700;
 }
 
@@ -221,11 +221,11 @@ img {
 }
 .company {
   display: flex;
-  padding: 120px 0;
+
+  gap: 24px;
 }
 .company-item {
   width: 264px;
-  margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -257,17 +257,17 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .work {
   display: flex;
-  padding-bottom: 120px;
+
   justify-content: center;
+  gap: 24px;
 }
 
 .work-item {
-  margin-right: 24px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -279,13 +279,13 @@ img {
 }
 .team {
   display: flex;
+  gap: 24px;
 }
 
 .work-team {
   background-color: var(--background-main);
   text-align: center;
-  margin-bottom: 120px;
-  margin-right: 24px;
+
   width: calc((100% - 72px) / 4);
 }
 .title-name {
@@ -303,14 +303,13 @@ img {
   margin-bottom: 8px;
 }
 .team-img {
-  margin-bottom: 32px;
 }
 .team-text {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+
   text-align: center;
 }
 /* portfolio */
@@ -320,7 +319,6 @@ img {
 .portfolio {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
   padding-bottom: 72px;
 }
 
@@ -352,15 +350,16 @@ img {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
+
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-item-cards {
   width: 360px;
   height: 420px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+
   border: 1px solid var(--cornflower);
   border-top: none;
-  margin-bottom: 72px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -371,7 +370,6 @@ img {
 .portfolio-link {
 }
 .portfolio-img {
-  margin-bottom: 32px;
 }
 .portfolio-title {
   font-weight: 500;
@@ -385,7 +383,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  padding-bottom: 32px;
 }
 
 .portfolio-text-hov {
@@ -411,7 +408,6 @@ img {
   color: var(--iris);
   margin-bottom: 16px;
   display: inline-block;
-  padding-top: 100px;
 }
 .logo-light {
   font-family: var(--secondary-font);
@@ -429,5 +425,4 @@ img {
   letter-spacing: 0.02em;
   color: var(--cloud);
   max-width: 264px;
-  padding-bottom: 100px;
 }
