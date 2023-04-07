@@ -77,7 +77,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
-  text-align: center;
 }
 
 .link {
@@ -103,7 +102,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  max-width: 496px;
+  width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 
   font-weight: 700;
@@ -131,6 +131,7 @@ img {
   border: 1px solid transparent;
   text-align: center;
   border: none;
+  margin: 0 auto;
 }
 
 .header {
@@ -166,11 +167,12 @@ img {
 }
 .header-list {
   display: flex;
-  margin-left: 76px;
   padding: 24px 0;
+  gap: 40px;
 }
-.header-address {
+.head-address {
   display: flex;
+  gap: 40px;
 }
 
 .company-blok {
@@ -179,7 +181,6 @@ img {
 .list {
 }
 .header-item {
-  margin-right: 40px;
 }
 .header-link {
   font-weight: 500;
@@ -200,7 +201,6 @@ img {
 }
 
 .header-address {
-  margin-right: 40px;
 }
 
 .address-link {
@@ -314,7 +314,8 @@ img {
 }
 /* portfolio */
 .section-portfolio {
-  padding: 96px 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .portfolio {
   display: flex;
